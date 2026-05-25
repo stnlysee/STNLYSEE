@@ -1,517 +1,233 @@
-
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="https://r.mobirisesite.com/1122802/assets/images/534b00dc8c646826768b40a51a59cdc2_128x128.png" type="image/x-icon">
-  <meta name="description" content="Artisfaction transforms ideas into reality with stunning designs and memorable experiences, ensuring every project reflects your unique story.">
-  <title>Artisfaction - Creating Experiences</title>
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/bootstrap/css/bootstrap.min.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/parallax/jarallax.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/dropdown/css/style.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/smart-cart/minicart-theme.css?rnd=1737945582265">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/theme/css/style.css?rnd=1737945582265">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap&display=swap"></noscript>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap&display=swap"></noscript>
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1122802/assets/css/mbr-additional.css?rnd=1737945582265" type="text/css">
-  
-  
-  
-  
-
-
-<style>
-.navbar-fixed-top {
-  top: auto;
-}
-#mobirisePromo.container-banner {
-  height: 8rem;
-  opacity: 1;
-  -webkit-animation: 11s linear animationHeight;
-  -moz-animation: 11s linear animationHeight;
-    -o-animation: 11s linear animationHeight;
-       animation: 11s linear animationHeight;
-       transition: all  0.5s;
-}
-#mobirisePromo.container-banner.container-banner-closing {
-  pointer-events: none;
-  height: 0;
-  opacity: 0;
-  -webkit-animation: 0.5s linear animationClosing;
-  -moz-animation:  0.5s linear animationClosing;
-    -o-animation:  0.5s linear animationClosing;
-       animation:  0.5s linear animationClosing;
-}
-#mobirisePromo .banner {
-  min-height: 8rem;
-  position:fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 10px;
-  opacity:1;
-  -webkit-animation: 11s linear animationBanner;
-  -moz-animation: 11s linear animationBanner;
-    -o-animation: 11s linear animationBanner;
-       animation: 11s linear animationBanner;
-  z-index: 1031;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#mobirisePromo .banner p {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  animation: none;
-  visibility: visible;
-}
-#mobirisePromo .buy-license {
-  text-decoration: underline;
-}
-#mobirisePromo .banner .btn {
-  margin: 0.3rem 0.5rem;
-  animation: none;
-  visibility: visible;
-}
-.navbar.opened {
-    z-index: 1032;
-}
-@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
-@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
-@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
-   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
-@-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
-@-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
-@-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
-   @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
-
-@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-
-@media(max-width: 767px) {
-  #mobirisePromo.container-banner {
-    height: 12rem;
-  }
-  #mobirisePromo .banner {
-    min-height: 12rem;
-  }
-  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
-  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
-  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
-    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
-  @-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
-  @-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
-  @-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
-    @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
-
-  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Artisfaction provides luxury scenography production support for high jewellery presentations, private client experiences, maison environments and regional brand scenography." />
+  <meta name="keywords" content="luxury scenography, high jewellery production, luxury event production, scenography setup, production consultant, private client experience, maison presentation, fabrication supervision, luxury finish control" />
+  <title>Artisfaction | Luxury Scenography Production</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu2 cid-uAAHUGPaHC" once="menu" id="menu-3-uAAHUGPaHC">
-    
-    <nav class="navbar navbar-dropdown navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="#">
-                        <img src="https://r.mobirisesite.com/1122802/assets/images/photo-1576153192396-180ecef2a-h_m6efn13r.jpg" alt="">
-                    </a>
-                </span>
-                
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="#"><br></a>
-                    </li></ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-black-outline display-7" href="#">Where Ideas Come to Life.</a></div>
-            </div>
-        </div>
+  <header class="site-header">
+    <a class="brand" href="#home"><img src="assets/images/artisfaction-logo.png" alt="Artisfaction — Turning Ideas Into Reality" /></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#studio">Studio</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
     </nav>
-</section>
+    <a class="header-cta" href="#contact">Start a Conversation</a>
+  </header>
 
-<section data-bs-version="5.1" class="header01 immersem5 cid-uAAHUGPgSj" id="hero-4-uAAHUGPgSj">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="content-wrapper">
-                    <div class="image-wrap">
-                          <img src="https://r.mobirisesite.com/1122802/assets/images/g6861c78c09fcc04620b027829ee5-h_m6effs8d.jpg" alt="">
-                    </div>
-                    <div class="title-wrapper">
-                        <p class="mbr-desc mbr-fonts-style display-4">Welcome to</p>
-                        <h1 class="mbr-section-title mbr-fonts-style display-1">
-                            <strong>Artisfaction<br>Where Ideas Come to Life.</strong></h1>
-                    </div>
-                    <div class="content-wrap">
-                        
-                        <p class="mbr-name mbr-fonts-style display-7">
-                            <strong>Imagination Meets Reality</strong>
-                        </p>
-                        <p class="mbr-role mbr-fonts-style display-4">At Artisfaction, we are a design and events production specialist dedicated to transforming your ideas into reality. <br>With creativity at our core and precision in every detail, we specialize in crafting memorable experiences and stunning designs that leave a lasting impression. <br>From conceptualization to execution, our team is passionate about bringing your vision to life, ensuring every project reflects your unique story.<br>&nbsp;Let us turn your imagination into a masterpiece.</p>
-                        
-                    </div>
-                </div>
-            </div>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Luxury Scenography · Technical Production</p>
+        <h1>Production Consultant and management for refined scenography.</h1>
+        <p class="hero-text">
+          Artisfaction supports high jewellery presentations, maison environments, private client experiences and luxury scenography setups across the region.
+        </p>
+        <div class="hero-actions">
+          <a class="button dark" href="#work">View Selected Work</a>
+          <a class="button light" href="#contact">Discuss a Project</a>
         </div>
-    </div>
-</section>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/aurora-luxury-lounge.jpg" alt="Luxury lounge scenography completed environment" />
+      </div>
+    </section>
 
-<section data-bs-version="5.1" class="features06 immersem5 cid-uAAHUGT5UC" id="features-5-uAAHUGT5UC">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="content-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>Where imagination meets precision.</strong></h2>
-                    <div class="desc-wrapper">
-                        <p class="mbr-desc mbr-fonts-style display-4">Transforming ideas into unforgettable experiences with flair and precision.</p>
-                    </div>
-                    <div class="items-wrapper">
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <p class="card-number mbr-fonts-style display-4">
-                                        01
-                                    </p>
-                                    <h4 class="card-title mbr-fonts-style display-5"><strong>3D Visualization &amp; Renderings: </strong><br>High-quality visual representations for interiors, products, and concepts.</h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-idea mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <p class="card-number mbr-fonts-style display-4">
-                                        02
-                                    </p>
-                                    <h4 class="card-title mbr-fonts-style display-5"><strong>Vendor Coordination: </strong><br>Seamless management of third-party vendors and suppliers to ensure quality and timeliness.<br><br><strong>Material Selection &amp; Sourcing: </strong>Recommendations on materials that align with your vision, budget, and goals.</h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-search mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <p class="card-number mbr-fonts-style display-4">
-                                        03
-                                    </p>
-                                    <h4 class="card-title mbr-fonts-style display-5"><strong>Project Planning &amp; Execution: </strong><br>Expert guidance to streamline production processes from start to finish.</h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <p class="card-number mbr-fonts-style display-4">
-                                        04
-                                    </p>
-                                    <h4 class="card-title mbr-fonts-style display-5">
-                                        <strong>Creativity</strong><br>We understand and is a specialist in creating brand experiences</h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-contact-form mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <p class="card-number mbr-fonts-style display-4">
-                                        05
-                                    </p>
-                                    <h4 class="card-title mbr-fonts-style display-5">
-                                        <strong>Execution</strong><br>Detailed oversight to maintain the highest standards across all stages of production.
-                                    </h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-like mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-wrapper">
-                        <p class="mbr-text mbr-fonts-style display-4">Crafting masterpieces that tell your unique story.</p>
-                    </div>
-                    
-                </div>
-            </div>
+    <section id="studio" class="section intro">
+      <div class="section-label">Studio</div>
+      <div class="split">
+        <h2>Where atmosphere is shaped into reality.</h2>
+        <div>
+          <p>
+            Luxury scenography is built through quiet decisions: material tone, lighting behaviour, sightline, structure, access, timing and the final guest-facing finish.
+          </p>
+          <p>
+            We work behind the scene to translate creative intent into a physical environment that feels calm, precise and complete.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section data-bs-version="5.1" class="video02 immersem5 cid-uAAHUGQFJL mbr-parallax-background" id="image-1-uAAHUGQFJL">
-    
+    <section id="services" class="section services">
+      <div class="section-label">Services</div>
+      <div class="section-heading">
+        <h2>Production support for luxury scenography.</h2>
+        <p>For maisons, high jewellery teams, private clients and agencies who need calm technical direction without unnecessary noise.</p>
+      </div>
 
-    
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="frame-wrapper">
-                    <div class="content-wrapper">
-                        <div class="content-wrap">
-                            
-                            <div class="text-wrap">
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+      <div class="service-grid">
+        <article><span>01</span><h3>Scenography Production</h3><p>Production support for high jewellery presentations, private client experiences and refined brand environments.</p></article>
+        <article><span>02</span><h3>Technical Planning</h3><p>Feasibility, layout review, build sequence, technical requirements and site readiness.</p></article>
+        <article><span>03</span><h3>Site & Build Coordination</h3><p>Access, loading, power, contractor movement, installation flow and build supervision.</p></article>
+        <article><span>04</span><h3>Fabrication Supervision</h3><p>Workshop checks, material direction, sample review and production timeline follow-up.</p></article>
+        <article><span>05</span><h3>Detail & Finish Control</h3><p>Display alignment, lighting, surface finish, cleanliness and guest-facing presentation.</p></article>
+        <article><span>06</span><h3>On-Ground Support</h3><p>Vendor timing, crew briefing, troubleshooting, handover and teardown coordination.</p></article>
+      </div>
+    </section>
+
+    <section class="section result">
+      <div class="result-image">
+        <img src="assets/images/luxury-dinner-scenography.jpg" alt="Luxury dinner scenography and table setting" />
+      </div>
+      <div class="result-copy">
+        <p class="eyebrow">From Production To Experience</p>
+        <h2>Built quietly. Experienced beautifully.</h2>
+        <p>
+          The guest sees the final atmosphere. Behind it is production control: structure, lighting, finish, installation sequence, site movement and readiness.
+        </p>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section-label">Selected Work</div>
+      <div class="section-heading compact-heading">
+        <h2>The making behind luxury scenography.</h2>
+        <p>A curated look at relevant details only: finished atmosphere, scenography build, fabrication, material choices, technical checks and handover.</p>
+      </div>
+
+      <div class="editorial-work-grid">
+        <article class="editorial-card large">
+          <img src="assets/images/outdoor-overview-scenography.jpg" alt="Outdoor scenography overview" />
+          <div>
+            <span>01 · Experience</span>
+            <h3>Outdoor scenography, lighting and guest flow.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/luxury-platform-build.jpg" alt="Luxury platform build" />
+          <div>
+            <span>02 · Site Production</span>
+            <h3>Platform, structure and installation sequence.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/finish-samples.jpg" alt="Finish samples" />
+          <div>
+            <span>03 · Finish Samples</span>
+            <h3>Surface tone and coating comparison.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/metallic-swatches.jpg" alt="Metallic swatches" />
+          <div>
+            <span>04 · Material Detail</span>
+            <h3>Reflective finish and metal tone review.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card wide">
+          <img src="assets/images/print-material-review.jpg" alt="Print material review" />
+          <div>
+            <span>05 · Print & Material</span>
+            <h3>Artwork output, colour control and production review.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/metal-pedestal-finish.jpg" alt="Metal pedestal final presentation" />
+          <div>
+            <span>06 · Final Display</span>
+            <h3>Guest-facing placement, finish and handover.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/dragon-artisan-fabrication.jpg" alt="Artisan dragon fabrication" />
+          <div>
+            <span>07 · Custom Build</span>
+            <h3>Sculptural fabrication and artisan finishing.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/power-technical-check.jpg" alt="Power technical check" />
+          <div>
+            <span>08 · Technical Check</span>
+            <h3>Power, load and safety before operation.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card wide">
+          <img src="assets/images/container-installation.jpg" alt="Night logistics container installation" />
+          <div>
+            <span>09 · Logistics</span>
+            <h3>Night installation, access route and heavy movement.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card">
+          <img src="assets/images/sculptural-fabrication.jpg" alt="Sculptural fabrication" />
+          <div>
+            <span>10 · Fabrication</span>
+            <h3>Custom form, surface finish and build control.</h3>
+          </div>
+        </article>
+
+        <article class="editorial-card wide">
+          <img src="assets/images/outdoor-live-scenography.jpg" alt="Outdoor live scenography" />
+          <div>
+            <span>11 · Live Environment</span>
+            <h3>The atmosphere after production is resolved.</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="section process">
+      <div class="section-label">Process</div>
+      <div class="process-wrap">
+        <div>
+          <h2>A clear production path.</h2>
+          <p>Simple, structured and site-ready.</p>
         </div>
-    </div>
-</section>
+        <ol>
+          <li><strong>Understand</strong><span>Creative intent, venue, timeline and production needs.</span></li>
+          <li><strong>Translate</strong><span>Turn the idea into build method, materials, site flow and vendor instructions.</span></li>
+          <li><strong>Coordinate</strong><span>Align fabrication, lighting, venue, manpower, logistics and client expectations.</span></li>
+          <li><strong>Install</strong><span>Manage setup sequence, finishing details, technical checks and guest-readiness.</span></li>
+          <li><strong>Handover</strong><span>Final presentation, site closure, teardown and post-event wrap-up.</span></li>
+        </ol>
+      </div>
+    </section>
 
-<section data-bs-version="5.1" class="tabs02 immersem5 cid-uAAHUGSIx0" id="features-6-uAAHUGSIx0">
-    
+    <section class="section note">
+      <p>Good scenography feels effortless because the difficult parts have already been solved.</p>
+    </section>
 
-    
-    
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build your next luxury environment properly.</h2>
+        <p>Speak to Artisfaction for scenography production support, fabrication coordination, site planning and refined on-ground execution across the region.</p>
+      </div>
+      <div class="contact-card">
+        <p><strong>Artisfaction Pte. Ltd.</strong></p>
+        <p>60 Paya Lebar Road<br>#06-28 Paya Lebar Square<br>Singapore 409051</p>
+        <p><a href="tel:+6584477668">+65 8447 7668</a></p>
+        <p><a href="mailto:info@artisfaction.asia">info@artisfaction.asia</a></p>
+      </div>
+    </section>
+  </main>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-10">
-                <p class="mbr-desc mbr-fonts-style display-4"></p>
-            </div>
-            <div class="col-12 col-lg-5">
-                <div class="content-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style display-2">
-                        <strong>Crafting Experiences</strong>
-                    </h2>
-                    <p class="mbr-text mbr-fonts-style display-4">From design to execution, we ensure every detail is perfect. Let us bring your vision to life!</p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-5">
-                <div class="tabs-wrap">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item first mbr-fonts-style"><a class="nav-link show active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tab1" aria-selected="true">Design</a></li>
-                        <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tab2" aria-selected="true">Production</a></li>
-                        <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tab3" aria-selected="true">Consultancy</a></li>
-                        <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tab4" aria-selected="true">Creativity</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="tab1" class="tab-pane in active" role="tabpanel">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/1122802/assets/images/image12-h_m6efi30y.jpg" alt="">
-                            </div>
-                        </div>
-                        <div id="tab2" class="tab-pane" role="tabpanel">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/1122802/assets/images/photo-1416339442236-8ceb164046f8.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div id="tab3" class="tab-pane" role="tabpanel">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/1122802/assets/images/photo-1434030216411-0b793f4b4173.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div id="tab4" class="tab-pane" role="tabpanel">
-                            <div class="image-wrapper">
-                                <img src="https://r.mobirisesite.com/1122802/assets/images/photo-1472289065668-ce650ac443d2.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+  <footer class="footer">
+    <p>© <span id="year"></span> Artisfaction. Turning Ideas Into Reality.</p>
+    <a href="#home">Back to top</a>
+  </footer>
 
-<section data-bs-version="5.1" class="gallery01 immersem5 cid-uB2JjmYR5L" id="gallery01-4">
-    
-    
-    <div class="container-fluid gallery-wrapper">
-        <div class="row justify-content-center">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head">
-                    <h4 class="mbr-section-title mbr-fonts-style display-2">&nbsp;</h4>
-                </div>
-            </div>
-        </div>
-        <div class="grid-container">
-            <div class="grid-container-3" style="transform: translate3d(-200px, 0px, 0px);">
-                <div class="grid-item">
-                    <img src="https://r.mobirisesite.com/1122802/assets/images/image2-h_m6ef7hyc.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="https://r.mobirisesite.com/1122802/assets/images/534b00dc8c646826768b40a51a59c-h_m6efpiac.png" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="https://r.mobirisesite.com/1122802/assets/images/image3-h_m6ef4mqi.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="https://r.mobirisesite.com/1122802/assets/images/image12-h_m6efotcz.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features02 immersem5 cid-uAAHUGTCm3" id="features-2-uAAHUGTCm3">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="content-wrapper">
-                    <p class="mbr-desc mbr-fonts-style display-4">Why Choose Us</p>
-                    <h2 class="mbr-section-title mbr-fonts-style display-2">
-                        <strong>Artisfaction Awaits</strong>
-                    </h2>
-                    <div class="text-wrapper">
-                        <p class="mbr-text mbr-fonts-style display-4">Your vision deserves the best. Let’s create magic together!</p>
-                    </div>
-                    <div class="items-wrapper">
-                        <div class="items-wrap">
-                            <div class="item features-without-image item-mb">
-                                <div class="item-wrapper">
-                                    <div class="card-box">
-                                        <h4 class="card-title mbr-fonts-style display-5">Creativity<br><br>Designs that bring <br>your ideas to life.<br><br><br><div><br></div></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item features-without-image item-mb">
-                                <div class="item-wrapper">
-                                    <div class="card-box">
-                                        <h4 class="card-title mbr-fonts-style display-5">Craftsmanship<br><br>Our attention to detail and dedication to quality <br>craftsmanship guarantee <br>stunning, long-lasting results.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item features-without-image item-mb">
-                                <div class="item-wrapper">
-                                    <div class="card-box">
-                                        <h4 class="card-title mbr-fonts-style display-5">Expertise<br><br>With years <br>of experience in design, <br>carpentry, and production <br>consultancy, <br>we provide <br>seamless and professional execution.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="contacts01 immersem5 cid-uAAHUGYDOB" id="contacts-1-uAAHUGYDOB">
-    
-
-    
-    
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="content-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style display-2">
-                        <strong>Contact Us</strong></h2>
-                    <div class="items-wrapper">
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <h4 class="card-title mbr-fonts-style display-7"><strong>+65 84477668&nbsp;<br><br></strong></h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <h4 class="card-title mbr-fonts-style display-7">ARTISFACTION PTE. LTD.
-<div>60 Paya Lebar Road
-</div><div>#06-28 Paya Lebar Square
-</div><div>Singapore 409051</div></h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-map-pin mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item features-without-image item-mb">
-                            <div class="item-wrapper">
-                                <div class="card-box">
-                                    <h4 class="card-title mbr-fonts-style display-7">
-                                        <strong>info@artisfaction.asia</strong></h4>
-                                    <div class="icon-wrapper">
-                                        <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-  <script src="https://r.mobirisesite.com/1122802/assets/web/assets/jquery/jquery.min.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/parallax/jarallax.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/smoothscroll/smooth-scroll.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/ytplayer/index.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/dropdown/js/navbar-dropdown.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/smart-cart/minicart.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/smart-cart/minicart-customizer.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/mbr-tabs/mbr-tabs.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/scrollgallery/scroll-gallery.js?rnd=1737945582265"></script>
-  <script src="https://r.mobirisesite.com/1122802/assets/theme/js/script.js?rnd=1737945582265"></script>
-  
-  
-  
-
+  <script src="assets/main.js"></script>
 </body>
-
 </html>
